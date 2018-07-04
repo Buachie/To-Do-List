@@ -1,0 +1,23 @@
+html{
+    height: 100%;
+}
+body{
+    background: repeating-linear-gradient( 45deg,#93a5cf, #93a5cf 10px, #e4efe9 10px,
+    #e4efe9 20px
+    );
+}
+#container{
+    margin: auto;
+    width:  50%;
+    height: auto;
+    background: linear-gradient(#a1c4fd, #c2e9fb);
+    border: 2px dotted black; 
+}
+
+.form{
+    padding-bottom: 7px;
+}
+
+#title{
+    font-family: Arial; 
+}

@@ -8,27 +8,26 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
-    <h1>Todo List</h1>
+    <div id = "container">
+    <h1 id="title">Todo List</h1>
     <!--
     <button id="displayTodosButton">Display Todos</button>
     <button id="toggleAllButton">Toggle All</button>
     -->
     
-    <div>
-        <button onclick="handlers.toggleAll()">Toggle All</button>
-    </div>
-    <br>
-    <div>
+    
+    
+    <div class="form">
         <button onclick="handlers.addTodo()">Add Todo</button>
         <input id = "addTodoTextInput" type="text">
     </div>
     
-    <div>
+    <div class="form">
         <button onclick="handlers.changeTodo()">Change Todo</button>
-        <input id="changeTodoPosition" type="number">
-        <input id="changeTodoText" type="text">
+        <input id="changeTodoPosition" type="number" placeholder="Enter '0' for the first todo">
+        <input id="changeTodoText" type="text" placeholder="Enter new text here">
     </div>
-    <div>
+    <div class="form">
         <button onclick="handlers.toggleAll()">Toggle All</button>
     </div>
 
@@ -37,5 +36,6 @@
     </ul>
 
     <script src="script.js"></script>
+    </div>
 </body>
 </html>
